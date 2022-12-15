@@ -82,7 +82,7 @@ client.on('incoming_call', async data => {
     const contact = await client.getContactById(data.from);
     await client.sendMessage(
       data.from,
-      'Ih nakal ya dibilangin, bot tidak menerima call yaa..\nKamu di block karena melanggar peraturan.\n\nUntuk membuka block silahkan hubungi owner lewat telegram t.me/bluetterflys.',
+      'Ih nakal ya dibilangin, bot tidak menerima call yaa..\nKamu di block karena melanggar peraturan.\n\nUntuk membuka block silahkan hubungi owner lewat telegram t.me/KeyargaSama .',
     );
 
     setTimeout(() => {
